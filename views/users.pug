@@ -1,0 +1,23 @@
+html
+ head
+  title= title
+  <link rel="Stylesheet" type="text/css" herf="/css/bootstrap.min.css">
+  body
+  div(class="container")
+  <center><div class='well'><b>Users Details</b></div></center>
+  table(class='table table-striped')
+  
+  thred
+    
+        tr
+            th name
+            th mobile
+            th email
+            
+        each item in items
+            <p>
+            tr
+                td=item.name 
+                td=item.mobile 
+                td=item.email
+                </p>
